@@ -6,7 +6,6 @@ import { Provider } from "react-redux";
 
 import App from "@/App";
 
-import "@/styles/style.scss";
 import Loading from "@/components/loading/Loading";
 import configureStore from "@/redux/index";
 

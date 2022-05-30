@@ -7,6 +7,7 @@ import Layout from "@/components/layout/Layout";
 import NotFound from "@/pages/not-found/NotFound";
 
 import theme from "@/styles/theme";
+import GlobalStyle from "@/styles/reset";
 
 if (process.env.NODE_ENV === "development") {
   const { worker } = require("./mocks/browser");
@@ -16,6 +17,7 @@ if (process.env.NODE_ENV === "development") {
 function App() {
   return (
     <ThemeProvider theme={theme}>
+      <GlobalStyle />
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<ProductList />} />

@@ -11,6 +11,7 @@ const StyledLogoLink = styled.h1`
     font-size: 30px;
     font-weight: 900;
     margin-left: 20px;
+    line-height: 40px;
   }
 `;
 

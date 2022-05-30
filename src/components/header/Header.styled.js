@@ -8,6 +8,7 @@ const StyledHeader = styled.header`
   top: 0;
   right: 0;
   left: 0;
+  padding: 10px;
 
   .logo-link {
     flex-shrink: 0;
