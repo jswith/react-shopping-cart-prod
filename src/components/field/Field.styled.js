@@ -6,6 +6,7 @@ const StyledField = styled.div`
 
   label {
     color: #8c8c8c;
+    margin-bottom: 5px;
   }
 `;
 
